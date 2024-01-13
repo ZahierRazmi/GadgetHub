@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js" defer></script>
+  <!-- Add your CSS styles if needed -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #abcafd;
+    }
+
+    img{
+        position: middle;
+        width: 30%;
+        height: 30%;;
+        padding-left: 34%;
+
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Gadgethub.com.my</h1>
+    <div class="search-bar">
+        <input type="text" placeholder="Search">
+    </div>
+    
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="ProjectHome.html">Home</a>
+      <a href="phone&tablet.html">Phone & Tablet</a>
+      <a href="Laptop&Pc.html">Laptop & Pc</a>
+      <a href="Accessories.html">Wearable & Accessories</a>
+      <a href="Review.html">Review</a>
+      <a href="News.html">News</a>
+      <a href="contact.html">Contact</a>
+  </div>
+  
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button>
+  </div>
+
+</div>
+
+    <h1>Contact Us</h1>
+
+  <main>
+    <img src="logo.jpg" alt="logo">
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2>Contact Us</h2>
+        <p>For inquiries, please email us at <a href="gadgetshub32@gmail.com">info@gadgetshub.com</a>.</p>
+  </main>
+
+</body>
+<footer>
+  <p>&copy; 2024  <a href="ProjectHome.html">@GadgetsHub</a>. All rights reserved.</p>
+</footer>
+</html>
